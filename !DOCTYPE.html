@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Miku Nakano</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #fce4ec; text-align: center; font-size: 18px; line-height: 1.6; margin: 0; padding: 20px; }
+        h1 { color: #880e4f; }
+        .content { max-width: 800px; margin: auto; text-align: left; background: #fff0f6; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2); }
+        .section-image { float: right; width: 200px; margin: 15px 0 20px 25px; border-radius: 15px; box-shadow: 0px 6px 14px rgba(0,0,0,0.35); transition: transform 0.3s ease; }
+        .section-image:hover { transform: scale(1.05); }
+        .download-title { text-align: center; margin: 60px 0 30px 0; color: #880e4f; font-size: 28px; }
+        .downloads { display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; }
+        .download-card { background: white; padding: 15px; border-radius: 15px; box-shadow: 0px 6px 16px rgba(0,0,0,0.2); width: 220px; text-align: center; }
+        .download-card:hover { transform: translateY(-8px); box-shadow: 0px 10px 20px rgba(136,14,79,0.3); }
+        .download-card img { width: 100%; height: 210px; object-fit: cover; border-radius: 12px; margin-bottom: 12px; }
+        .download-card h4 { margin: 8px 0 12px 0; color: #880e4f; font-size: 16px; }
+        .download-btn { display: inline-block; padding: 12px 24px; background-color: #880e4f; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 15px; }
+        .chat-title { text-align: center; margin: 80px 0 30px 0; color: #880e4f; font-size: 28px; }
+        .chat-container { max-width: 700px; margin: 0 auto; background: white; border-radius: 15px; box-shadow: 0px 6px 16px rgba(0,0,0,0.2); overflow: hidden; }
+        .chat-box { height: 420px; overflow-y: auto; padding: 20px; background: #fff0f6; display: flex; flex-direction: column; gap: 12px; }
+        .message { max-width: 80%; padding: 12px 18px; border-radius: 18px; font-size: 16px; }
+        .miku { align-self: flex-start; background: #f8bbd0; color: #880e4f; border-bottom-left-radius: 4px; }
+        .chat-input { display: flex; padding: 15px; background: #fff; border-top: 1px solid #ddd; justify-content: center; }
+        .chat-input button { padding: 14px 50px; background: #880e4f; color: white; border: none; border-radius: 30px; cursor: pointer; font-size: 18px; font-weight: bold; }
+       
+        /* REPRODUCTOR DE MÚSICA EN ESQUINA (simplificado) */
+        #music-player {
+            position: fixed; bottom: 20px; right: 20px; width: 340px; background: #fff0f6; border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(136,14,79,0.4); padding: 15px; z-index: 9999; border: 3px solid #f8bbd0;
+        }
+        #music-player h3 { margin: 0 0 10px 0; font-size: 18px; text-align: center; }
+        .corner-close { position: absolute; top: 8px; right: 12px; background: none; border: none; font-size: 24px; color: #880e4f; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <!-- ====================== ADVERTENCIA FUERTE ARRIBA ARRIBA ====================== -->
+    <div style="max-width: 1100px; margin: 15px auto 25px; padding: 25px 30px; background: linear-gradient(90deg, #ffebee, #f8bbd0); border: 6px solid #c2185b; border-radius: 20px; box-shadow: 0 10px 30px rgba(194, 24, 91, 0.4); color: #880e4f; font-size: 24px; font-weight: bold; line-height: 1.4; text-align: center;">
+        ⚠️ <strong>PRECAUCIÓN IMPORTANTE</strong> ⚠️<br>
+        Si ves el anime completo de <strong>Las Quintillizas</strong> corres un <span style="color:#d32f2f;">alto riesgo de depresión severa</span> por el final... 💔<br>
+        ¡Miku merecía ganar y este fan-site lo demuestra con todo el corazón! 🌸<br>
+        <span style="font-size:18px; opacity:0.95;">(Solo para fans de corazón fuerte que puedan soportar la tristeza más grande del mundo)</span>
+    </div>
+
+    <h1>Galería Miku Nakano</h1>
+    <p>dedicado a la gran Miku Nakano</p>
+    <a class="corner-link" href="https://www.bing.com/images/search?q=miku+nakano+8k&form=HDRSC3&first=1" target="_blank">galería de miku</a>
+    <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" placeholder="Buscar en Google">
+        <button type="submit">Buscar</button>
+    </form>
+    <div class="content">
+        <h2>🌸 100 motivos por los que Miku debió ganar</h2>
+        <ol>
+            <!-- Sección 1 -->
+            <li><strong>Personalidad y carácter</strong>
+                <img src="https://th.bing.com/th/id/OIP.cMRe3MGCE10E9Pqz_Cr-DAHaQD?w=115&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="section-image" alt="Miku - Personalidad">
+                <ol start="1">
+                    <li>Es la más madura emocionalmente.</li>
+                    <li>Tiene una evolución constante y genuina.</li>
+                    <li>Su timidez la hace real y entrañable.</li>
+                    <li>No busca llamar la atención, lo que la hace más auténtica.</li>
+                    <li>Es la más honesta consigo misma.</li>
+                    <li>No finge ser alguien que no es.</li>
+                    <li>Su vulnerabilidad conecta con los espectadores.</li>
+                    <li>Tiene un aire melancólico que la hace única.</li>
+                    <li>Su paciencia es admirable.</li>
+                    <li>Nunca actúa por egoísmo.</li>
+                </ol>
+            </li>
+            <!-- Sección 2 -->
+            <li><strong>Relación con Fuutarou</strong>
+                <img src="https://th.bing.com/th/id/OIP.u7OBmRNOvLIuBGZFNzHr_gHaKe?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="section-image" alt="Miku - Relación">
+                <ol start="11">
+                    <li>Fue la primera en enamorarse sinceramente.</li>
+                    <li>Su amor nació de la admiración, no de la conveniencia.</li>
+                    <li>Lo respeta como persona y como tutor.</li>
+                    <li>Sus confesiones fueron las más sinceras.</li>
+                    <li>Siempre lo apoyó en silencio.</li>
+                    <li>No lo presionó ni manipuló.</li>
+                    <li>Sus gestos pequeños demostraban más que palabras.</li>
+                    <li>La escena del auricular es icónica.</li>
+                    <li>Fue la que más se esforzó por acercarse a él.</li>
+                    <li>Su amor era puro y constante.</li>
+                </ol>
+            </li>
+            <!-- Sección 3 -->
+            <li><strong>Desarrollo personal</strong>
+                <img src="https://th.bing.com/th/id/OIP.GV4GrDn7Xi0hQMmlL1584wHaNK?w=115&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="section-image" alt="Miku - Desarrollo">
+                <ol start="21">
+                    <li>Pasó de ser insegura a valiente.</li>
+                    <li>Aprendió a expresar sus sentimientos.</li>
+                    <li>Se enfrentó a sus hermanas por defender lo que quería.</li>
+                    <li>Se atrevió a cocinar para él, aunque fallara.</li>
+                    <li>Superó su miedo a la competencia.</li>
+                    <li>Se convirtió en alguien más fuerte.</li>
+                    <li>Su crecimiento fue el más notorio.</li>
+                    <li>Aprendió a confiar en sí misma.</li>
+                    <li>Se abrió emocionalmente.</li>
+                    <li>Su evolución fue la más coherente.</li>
+                </ol>
+            </li>
+            <!-- Sección 4 -->
+            <li><strong>Momentos memorables</strong>
+                <img src="https://th.bing.com/th/id/OIP.sqa3KpCKJO3riw03HMJXLgHaIA?w=152&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="section-image" alt="Miku - Momentos">
+                <ol start="31">
+                    <li>La confesión en el templo.</li>
+                    <li>La escena del auricular.</li>
+                    <li>Sus intentos de cocinar.</li>
+                    <li>Su mirada cuando escucha a Fuutarou.</li>
+                    <li>El beso en el sueño.</li>
+                    <li>Su ternura al sonrojarse.</li>
+                    <li>La sinceridad de sus palabras.</li>
+                    <li>La intensidad de sus emociones.</li>
+                    <li>La forma en que se aferra a sus sentimientos.</li>
+                    <li>Cada gesto suyo era significativo.</li>
+                </ol>
+            </li>
+            <!-- Sección 5 -->
+            <li><strong>Comparación con sus hermanas</strong>
+                <img src="https://th.bing.com/th?id=OIF.ENt5sj%2bRS%2fHhetZtvz9kmw&w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="section-image" alt="Miku - Comparación">
+                <ol start="41">
+                    <li>No era manipuladora como Nino.</li>
+                    <li>No era indecisa como Ichika.</li>
+                    <li>No era pasiva como Yotsuba.</li>
+                    <li>No era distante como Itsuki.</li>
+                    <li>Su amor fue el más genuino.</li>
+                    <li>Nunca jugó sucio.</li>
+                    <li>No necesitó estrategias para destacar.</li>
+                    <li>Fue la más constante.</li>
+                    <li>Su relación con Fuutarou fue la más natural.</li>
+                    <li>Era la que más lo entendía.</li>
+                </ol>
+            </li>
+            <!-- Sección 6 -->
+            <li><strong>Simbolismo</strong>
+                <img src="https://th.bing.com/th/id/OIP.MjtHVuwYX2t8Ks5K0dPNygHaJK?w=147&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="section-image" alt="Miku - Simbolismo">
+                <ol start="51">
+                    <li>Representa el amor silencioso.</li>
+                    <li>Es la metáfora de la perseverancia.</li>
+                    <li>Su historia refleja la lucha interna.</li>
+                    <li>Es la personificación de la sinceridad.</li>
+                    <li>Representa la belleza de lo simple.</li>
+                    <li>Es la voz de los que aman en silencio.</li>
+                    <li>Su carácter simboliza la pureza.</li>
+                    <li>Es la más humana de todas.</li>
+                    <li>Su amor es universal.</li>
+                    <li>Es la que más conecta con la audiencia.</li>
+                </ol>
+            </li>
+            <!-- Sección 7 -->
+            <li><strong>Impacto en los fans</strong>
+                <img src="https://th.bing.com/th/id/OIP.2fO46Ad6KY01FmH0xgQg-wHaNK?w=115&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="section-image" alt="Miku - Impacto fans">
+                <ol start="61">
+                    <li>Es la favorita de la mayoría.</li>
+                    <li>Generó más empatía que las demás.</li>
+                    <li>Sus escenas son las más recordadas.</li>
+                    <li>Su ternura conquistó corazones.</li>
+                    <li>Es la más defendida en debates.</li>
+                    <li>Su historia es la más comentada.</li>
+                    <li>Su confesión fue la más esperada.</li>
+                    <li>Es la que más lágrimas provocó.</li>
+                    <li>Su amor es el más celebrado.</li>
+                    <li>Es la más querida en encuestas.</li>
+                </ol>
+            </li>
+            <!-- Sección 8 -->
+            <li><strong>Coherencia narrativa</strong>
+                <img src="https://th.bing.com/th/id/OIP.aQWRBoil_9Pmgl9j3L3MiAHaEu?w=238&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="section-image" alt="Miku - Coherencia">
+                <ol start="71">
+                    <li>Su arco fue el más sólido.</li>
+                    <li>Su relación con Fuutarou fue la más desarrollada.</li>
+                    <li>Su amor tuvo continuidad.</li>
+                    <li>No hubo contradicciones en su historia.</li>
+                    <li>Su evolución fue orgánica.</li>
+                    <li>Su narrativa fue la más consistente.</li>
+                    <li>Su final debió ser el más lógico.</li>
+                    <li>Su historia estaba mejor construida.</li>
+                    <li>Su amor fue el más trabajado.</li>
+                    <li>Era la conclusión natural.</li>
+                </ol>
+            </li>
+            <!-- Sección 9 -->
+            <li><strong>Valores</strong>
+                <img src="https://th.bing.com/th/id/OIP.FVSFHwQBMA7vmDjnDur8-AHaHa?w=165&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="section-image" alt="Miku - Valores">
+                <ol start="81">
+                    <li>Representa la sinceridad.</li>
+                    <li>Enseña la importancia de la perseverancia.</li>
+                    <li>Demuestra que el amor no necesita ruido.</li>
+                    <li>Enseña a ser valiente.</li>
+                    <li>Representa la honestidad.</li>
+                    <li>Demuestra que la timidez no es debilidad.</li>
+                    <li>Enseña que el amor verdadero es paciente.</li>
+                    <li>Representa la humildad.</li>
+                    <li>Demuestra que los pequeños gestos importan.</li>
+                    <li>Enseña que la autenticidad siempre gana.</li>
+                </ol>
+            </li>
+            <!-- Sección 10 -->
+            <li><strong>Valores finales</strong>
+                <img src="https://th.bing.com/th/id/OIP.7_-60kNf1pC6-zavor-0hgHaEK?w=269&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="section-image" alt="Miku - Valores finales">
+                <ol start="91">
+                    <li>Fue la primera en enamorarse.</li>
+                    <li>Fue la más sincera.</li>
+                    <li>Fue la más constante.</li>
+                    <li>Fue la más valiente.</li>
+                    <li>Fue la más humana.</li>
+                    <li>Fue la más coherente.</li>
+                    <li>Fue la más recordada.</li>
+                    <li>Fue la más querida.</li>
+                    <li>Fue la más significativa.</li>
+                    <li>Porque Miku es, simplemente, la que más lo merecía.</li>
+                </ol>
+            </li>
+        </ol>
+        
+        <!-- CHAT CON 1000 MOTIVOS -->
+        <h2 class="chat-title">💬 Miku Nakano te dice los 1000 motivos ÚNICOS por los que debió ganar</h2>
+        <div class="chat-container">
+            <div id="chat-box" class="chat-box"></div>
+            <div class="chat-input">
+                <button onclick="continuarChat()">continuar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====================== NUEVA SECCIÓN DE DESCARGAS (FUERA DEL CONTENEDOR PRINCIPAL) ====================== -->
+    <!-- Sección de descargas generales (las 10 originales + las 11-17 que pediste) -->
+    <div class="content" style="max-width: 1250px; margin: 100px auto 70px auto;">
+        <h2 class="download-title">📥 Descargas de Imágenes de Miku Nakano</h2>
+        <div class="downloads">
+            <!-- Imagen 1 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.cMRe3MGCE10E9Pqz_Cr-DAHaQD?w=115&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 1">
+                <h4>Miku Nakano #1</h4>
+                <a href="https://th.bing.com/th/id/OIP.cMRe3MGCE10E9Pqz_Cr-DAHaQD?w=115&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-1.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 2 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.u7OBmRNOvLIuBGZFNzHr_gHaKe?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 2">
+                <h4>Miku Nakano #2</h4>
+                <a href="https://th.bing.com/th/id/OIP.u7OBmRNOvLIuBGZFNzHr_gHaKe?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-2.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 3 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.GV4GrDn7Xi0hQMmlL1584wHaNK?w=115&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 3">
+                <h4>Miku Nakano #3</h4>
+                <a href="https://th.bing.com/th/id/OIP.GV4GrDn7Xi0hQMmlL1584wHaNK?w=115&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-3.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 4 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.sqa3KpCKJO3riw03HMJXLgHaIA?w=152&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 4">
+                <h4>Miku Nakano #4</h4>
+                <a href="https://th.bing.com/th/id/OIP.sqa3KpCKJO3riw03HMJXLgHaIA?w=152&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-4.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 5 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th?id=OIF.ENt5sj%2bRS%2fHhetZtvz9kmw&w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 5">
+                <h4>Miku Nakano #5</h4>
+                <a href="https://th.bing.com/th?id=OIF.ENt5sj%2bRS%2fHhetZtvz9kmw&w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-5.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 6 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.MjtHVuwYX2t8Ks5K0dPNygHaJK?w=147&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 6">
+                <h4>Miku Nakano #6</h4>
+                <a href="https://th.bing.com/th/id/OIP.MjtHVuwYX2t8Ks5K0dPNygHaJK?w=147&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-6.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 7 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.2fO46Ad6KY01FmH0xgQg-wHaNK?w=115&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 7">
+                <h4>Miku Nakano #7</h4>
+                <a href="https://th.bing.com/th/id/OIP.2fO46Ad6KY01FmH0xgQg-wHaNK?w=115&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-7.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 8 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.aQWRBoil_9Pmgl9j3L3MiAHaEu?w=238&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 8">
+                <h4>Miku Nakano #8</h4>
+                <a href="https://th.bing.com/th/id/OIP.aQWRBoil_9Pmgl9j3L3MiAHaEu?w=238&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-8.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 9 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.FVSFHwQBMA7vmDjnDur8-AHaHa?w=165&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 9">
+                <h4>Miku Nakano #9</h4>
+                <a href="https://th.bing.com/th/id/OIP.FVSFHwQBMA7vmDjnDur8-AHaHa?w=165&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-9.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 10 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.7_-60kNf1pC6-zavor-0hgHaEK?w=269&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 10">
+                <h4>Miku Nakano #10</h4>
+                <a href="https://th.bing.com/th/id/OIP.7_-60kNf1pC6-zavor-0hgHaEK?w=269&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-10.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 11 -->
+            <div class="download-card">
+                <img src="https://www.bing.com/th/id/OIP.Q1ge1HUTtt7XC5eOUIvKBgHaEK?w=219&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Miku 11">
+                <h4>Miku Nakano #11</h4>
+                <a href="https://www.bing.com/th/id/OIP.Q1ge1HUTtt7XC5eOUIvKBgHaEK?w=219&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" class="download-btn" download="miku-nakano-11.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 12 -->
+            <div class="download-card">
+                <img src="https://www.bing.com/th/id/OIP.7OZihfFyif832TnoEU7NYAHaEn?w=245&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Miku 12">
+                <h4>Miku Nakano #12</h4>
+                <a href="https://www.bing.com/th/id/OIP.7OZihfFyif832TnoEU7NYAHaEn?w=245&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" class="download-btn" download="miku-nakano-12.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 13 -->
+            <div class="download-card">
+                <img src="https://www.bing.com/th/id/OIP.Yl51mEhXRsSrrqYK-nUqogHaEK?w=218&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Miku 13">
+                <h4>Miku Nakano #13</h4>
+                <a href="https://www.bing.com/th/id/OIP.Yl51mEhXRsSrrqYK-nUqogHaEK?w=218&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" class="download-btn" download="miku-nakano-13.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 14 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.knXsI9tuOlSErzKFqIXuXAHaKe?w=208&h=294&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 14">
+                <h4>Miku Nakano #14</h4>
+                <a href="https://th.bing.com/th/id/OIP.knXsI9tuOlSErzKFqIXuXAHaKe?w=208&h=294&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-14.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 15 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.u-Ef7eOQgDl9egkx7i-OdQHaNk?w=184&h=338&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 15">
+                <h4>Miku Nakano #15</h4>
+                <a href="https://th.bing.com/th/id/OIP.u-Ef7eOQgDl9egkx7i-OdQHaNk?w=184&h=338&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-15.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 16 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.Fyopv9w4m-kEZCTcXctfCwHaMI?w=208&h=315&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 16">
+                <h4>Miku Nakano #16</h4>
+                <a href="https://th.bing.com/th/id/OIP.Fyopv9w4m-kEZCTcXctfCwHaMI?w=208&h=315&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-16.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- Imagen 17 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP._P98vHFv77-j0BxBSJ9dRwHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Miku 17">
+                <h4>Miku Nakano #17</h4>
+                <a href="https://th.bing.com/th/id/OIP._P98vHFv77-j0BxBSJ9dRwHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-nakano-17.jpg">⬇️ Descargar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====================== FONDO DE PANTALLA CELULAR ====================== -->
+    <div class="content" style="max-width: 1250px; margin: 40px auto 70px auto;">
+        <h2 class="download-title">📱 Fondo de Pantalla para Celular</h2>
+        <div class="downloads">
+            <!-- 18 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.Fyopv9w4m-kEZCTcXctfCwHaMI?w=208&h=315&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 1">
+                <h4>Fondo Celular #1</h4>
+                <a href="https://th.bing.com/th/id/OIP.Fyopv9w4m-kEZCTcXctfCwHaMI?w=208&h=315&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-1.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 19 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.knXsI9tuOlSErzKFqIXuXAHaKe?w=208&h=294&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 2">
+                <h4>Fondo Celular #2</h4>
+                <a href="https://th.bing.com/th/id/OIP.knXsI9tuOlSErzKFqIXuXAHaKe?w=208&h=294&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-2.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 20 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.YEX1bnpChxByp5vuHRVHgwHaKe?w=208&h=294&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 3">
+                <h4>Fondo Celular #3</h4>
+                <a href="https://th.bing.com/th/id/OIP.YEX1bnpChxByp5vuHRVHgwHaKe?w=208&h=294&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-3.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 21 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP._P98vHFv77-j0BxBSJ9dRwHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 4">
+                <h4>Fondo Celular #4</h4>
+                <a href="https://th.bing.com/th/id/OIP._P98vHFv77-j0BxBSJ9dRwHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-4.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 22 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.oTGLBHAH2kLNmoRgI7UZEwHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 5">
+                <h4>Fondo Celular #5</h4>
+                <a href="https://th.bing.com/th/id/OIP.oTGLBHAH2kLNmoRgI7UZEwHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-5.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 23 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.be0hYFlpgUFrfWt5sRKVCgHaNK?w=208&h=326&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 6">
+                <h4>Fondo Celular #6</h4>
+                <a href="https://th.bing.com/th/id/OIP.be0hYFlpgUFrfWt5sRKVCgHaNK?w=208&h=326&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-6.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 24 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.mpAyh8Kz02ZvhwQoVBAQEgHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 7">
+                <h4>Fondo Celular #7</h4>
+                <a href="https://th.bing.com/th/id/OIP.mpAyh8Kz02ZvhwQoVBAQEgHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-7.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 25 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.SBgD2g5O3P4StQnP_MgRhwHaPs?w=165&h=350&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 8">
+                <h4>Fondo Celular #8</h4>
+                <a href="https://th.bing.com/th/id/OIP.SBgD2g5O3P4StQnP_MgRhwHaPs?w=165&h=350&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-8.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 26 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.aPNk-xBaZge6LJsRs368UAHaKG?w=208&h=283&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 9">
+                <h4>Fondo Celular #9</h4>
+                <a href="https://th.bing.com/th/id/OIP.aPNk-xBaZge6LJsRs368UAHaKG?w=208&h=283&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-9.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 27 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.qSbpKgyydVERD9mfdlqEPwHaLH?w=204&h=306&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 10">
+                <h4>Fondo Celular #10</h4>
+                <a href="https://th.bing.com/th/id/OIP.qSbpKgyydVERD9mfdlqEPwHaLH?w=204&h=306&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-10.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 28 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.8D8luGErysNO1xc4cMLmKAHaQB?w=161&h=349&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 11">
+                <h4>Fondo Celular #11</h4>
+                <a href="https://th.bing.com/th/id/OIP.8D8luGErysNO1xc4cMLmKAHaQB?w=161&h=349&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-11.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 29 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.IwAfIg2vpEci9ADNn6p6CAHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 12">
+                <h4>Fondo Celular #12</h4>
+                <a href="https://th.bing.com/th/id/OIP.IwAfIg2vpEci9ADNn6p6CAHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-12.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 30 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.HM4V5_qpsLeiv_Ki1-VVTgHaQC?w=161&h=349&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo Celular 13">
+                <h4>Fondo Celular #13</h4>
+                <a href="https://th.bing.com/th/id/OIP.HM4V5_qpsLeiv_Ki1-VVTgHaQC?w=161&h=349&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-cel-13.jpg">⬇️ Descargar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====================== FONDO DE PANTALLA PC ====================== -->
+    <div class="content" style="max-width: 1250px; margin: 40px auto;">
+        <h2 class="download-title">🖥️ Fondo de Pantalla para PC</h2>
+        <div class="downloads">
+            <!-- 31 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.m9MarFI2nM8WHDoCxnHYTwHaEK?w=273&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo PC 1">
+                <h4>Fondo PC #1</h4>
+                <a href="https://th.bing.com/th/id/OIP.m9MarFI2nM8WHDoCxnHYTwHaEK?w=273&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-pc-1.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 32 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.CtNE4Ct5jGwGXW5O7ZnNSwHaEC?w=282&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo PC 2">
+                <h4>Fondo PC #2</h4>
+                <a href="https://th.bing.com/th/id/OIP.CtNE4Ct5jGwGXW5O7ZnNSwHaEC?w=282&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-pc-2.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 33 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.7_-60kNf1pC6-zavor-0hgHaEK?w=279&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo PC 3">
+                <h4>Fondo PC #3</h4>
+                <a href="https://th.bing.com/th/id/OIP.7_-60kNf1pC6-zavor-0hgHaEK?w=279&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-pc-3.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 34 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.1yKA2PAHrQQQAG_p7XpmDwHaEK?w=311&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo PC 4">
+                <h4>Fondo PC #4</h4>
+                <a href="https://th.bing.com/th/id/OIP.1yKA2PAHrQQQAG_p7XpmDwHaEK?w=311&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-pc-4.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 35 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.DBImBv9QVExkLGReocfj9QHaEK?w=325&h=183&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo PC 5">
+                <h4>Fondo PC #5</h4>
+                <a href="https://th.bing.com/th/id/OIP.DBImBv9QVExkLGReocfj9QHaEK?w=325&h=183&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-pc-5.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 36 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.lGe0c6j1-i_GgF4y9OQfcAHaEj?w=271&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo PC 6">
+                <h4>Fondo PC #6</h4>
+                <a href="https://th.bing.com/th/id/OIP.lGe0c6j1-i_GgF4y9OQfcAHaEj?w=271&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-pc-6.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 37 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.aQWRBoil_9Pmgl9j3L3MiAHaEu?w=284&h=181&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo PC 7">
+                <h4>Fondo PC #7</h4>
+                <a href="https://th.bing.com/th/id/OIP.aQWRBoil_9Pmgl9j3L3MiAHaEu?w=284&h=181&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-pc-7.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 38 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.DApLdJpKJm1GoRvt5voTRwHaEK?w=279&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo PC 8">
+                <h4>Fondo PC #8</h4>
+                <a href="https://th.bing.com/th/id/OIP.DApLdJpKJm1GoRvt5voTRwHaEK?w=279&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-pc-8.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 39 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.YazKFRUB2Oi3FS_VYMMjmQHaEK?w=333&h=187&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo PC 9">
+                <h4>Fondo PC #9</h4>
+                <a href="https://th.bing.com/th/id/OIP.YazKFRUB2Oi3FS_VYMMjmQHaEK?w=333&h=187&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-pc-9.jpg">⬇️ Descargar</a>
+            </div>
+            <!-- 40 -->
+            <div class="download-card">
+                <img src="https://th.bing.com/th/id/OIP.4SSM5IXDrXhwt5n-EVRIYQHaEK?w=234&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Fondo PC 10">
+                <h4>Fondo PC #10</h4>
+                <a href="https://th.bing.com/th/id/OIP.4SSM5IXDrXhwt5n-EVRIYQHaEK?w=234&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="download-btn" download="miku-fondo-pc-10.jpg">⬇️ Descargar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- REPRODUCTOR DE MÚSICA (YouTube + botones + selector eliminados completamente) -->
+    <div id="music-player">
+        <button class="corner-close" onclick="this.parentElement.style.display='none'">✕</button>
+        <h3>🎵 10 musicas de gnh </h3>
+       
+        <!-- AUDIO 1 -->
+        <audio controls style="width: 100%; margin-bottom: 15px; display: block;">
+            <source src="1.mp3" type="audio/mpeg">
+        </audio>
+        <!-- AUDIO 2 (xd.mpeg) -->
+        <audio controls style="width: 100%; margin-bottom: 15px; display: block;">
+            <source src="xd.mpeg" type="audio/mpeg">
+        </audio>
+        
+        <!-- AUDIO 3 (arigatou.mpeg) -->
+        <audio controls style="width: 100%; margin-bottom: 15px; display: block;">
+            <source src="arigatou.mpeg" type="audio/mpeg">
+        </audio>
+
+        <!-- AUDIO 4 (korekara.mp3) -->
+        <audio controls style="width: 100%; margin-bottom: 15px; display: block;">
+            <source src="korekara.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- AUDIO 5 (kii.mpeg) - NUEVO -->
+        <audio controls style="width: 100%; margin-bottom: 15px; display: block;">
+            <source src="kii.mpeg" type="audio/mpeg">
+        </audio>
+
+        <!-- AUDIO 6 (ichi.mpeg) - NUEVO -->
+        <audio controls style="width: 100%; margin-bottom: 15px; display: block;">
+            <source src="ichi.mpeg" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script>
+        // 1000 MOTIVOS ÚNICOS (sin cambios)
+        const baseReasons = [
+            "Es la más madura emocionalmente.", "Tiene una evolución constante y genuina.", "Su timidez la hace real y entrañable.",
+            "No busca llamar la atención, lo que la hace más auténtica.", "Es la más honesta consigo misma.", "No finge ser alguien que no es.",
+            "Su vulnerabilidad conecta con los espectadores.", "Tiene un aire melancólico que la hace única.", "Su paciencia es admirable.",
+            "Nunca actúa por egoísmo.", "Fue la primera en enamorarse sinceramente.", "Su amor nació de la admiración, no de la conveniencia.",
+            "Lo respeta como persona y como tutor.", "Sus confesiones fueron las más sinceras.", "Siempre lo apoyó en silencio.",
+            "No lo presionó ni manipuló.", "Sus gestos pequeños demostraban más que palabras.", "La escena del auricular es icónica.",
+            "Fue la que más se esforzó por acercarse a él.", "Su amor era puro y constante.", "Pasó de ser insegura a valiente.",
+            "Aprendió a expresar sus sentimientos.", "Se enfrentó a sus hermanas por defender lo que quería.", "Se atrevió a cocinar para él, aunque fallara.",
+            "Superó su miedo a la competencia.", "Se convirtió en alguien más fuerte.", "Su crecimiento fue el más notorio.",
+            "Aprendió a confiar en sí misma.", "Se abrió emocionalmente.", "Su evolución fue la más coherente.",
+            "La confesión en el templo.", "La escena del auricular.", "Sus intentos de cocinar.",
+            "Su mirada cuando escucha a Fuutarou.", "El beso en el sueño.", "Su ternura al sonrojarse.",
+            "La sinceridad de sus palabras.", "La intensidad de sus emociones.", "La forma en que se aferra a sus sentimientos.",
+            "Cada gesto suyo era significativo.", "No era manipuladora como Nino.", "No era indecisa como Ichika.",
+            "No era pasiva como Yotsuba.", "No era distante como Itsuki.", "Su amor fue el más genuino.",
+            "Nunca jugó sucio.", "No necesitó estrategias para destacar.", "Fue la más constante.",
+            "Su relación con Fuutarou fue la más natural.", "Era la que más lo entendía.", "Representa el amor silencioso.",
+            "Es la metáfora de la perseverancia.", "Su historia refleja la lucha interna.", "Es la personificación de la sinceridad.",
+            "Representa la belleza de lo simple.", "Es la voz de los que aman en silencio.", "Su carácter simboliza la pureza.",
+            "Es la más humana de todas.", "Su amor es universal.", "Es la que más conecta con la audiencia.",
+            "Es la favorita de la mayoría.", "Generó más empatía que las demás.", "Sus escenas son las más recordadas.",
+            "Su ternura conquistó corazones.", "Es la más defendida en debates.", "Su historia es la más comentada.",
+            "Su confesión fue la más esperada.", "Es la que más lágrimas provocó.", "Su amor es el más celebrado.",
+            "Es la más querida en encuestas.", "Su arco fue el más sólido.", "Su relación con Fuutarou fue la más desarrollada.",
+            "Su amor tuvo continuidad.", "No hubo contradicciones en su historia.", "Su evolución fue orgánica.",
+            "Su narrativa fue la más consistente.", "Su final debió ser el más lógico.", "Su historia estaba mejor construida.",
+            "Su amor fue el más trabajado.", "Era la conclusión natural.", "Representa la sinceridad.",
+            "Enseña la importancia de la perseverancia.", "Demuestra que el amor no necesita ruido.", "Enseña a ser valiente.",
+            "Representa la honestidad.", "Demuestra que la timidez no es debilidad.", "Enseña que el amor verdadero es paciente.",
+            "Representa la humildad.", "Demuestra que los pequeños gestos importan.", "Enseña que la autenticidad siempre gana.",
+            "Fue la primera en enamorarse.", "Fue la más sincera.", "Fue la más constante.",
+            "Fue la más valiente.", "Fue la más humana.", "Fue la más coherente.",
+            "Fue la más recordada.", "Fue la más querida.", "Fue la más significativa.",
+            "Porque Miku es, simplemente, la que más lo merecía."
+        ];
+        let motivoIndex = 0;
+        function continuarChat() {
+            const chatBox = document.getElementById("chat-box");
+            const current = motivoIndex + 1;
+            const reasonIndex = motivoIndex % baseReasons.length;
+            const text = `Motivo ${current}: ${baseReasons[reasonIndex]}`;
+            const msg = document.createElement("div");
+            msg.className = "message miku";
+            msg.textContent = text;
+            chatBox.appendChild(msg);
+            chatBox.scrollTop = chatBox.scrollHeight;
+            motivoIndex = (motivoIndex + 1) % 1000;
+        }
+        window.onload = function() {
+            const chatBox = document.getElementById("chat-box");
+            const welcome = document.createElement("div");
+            welcome.className = "message miku";
+            welcome.textContent = "¡Holaaa! Soy Miku Nakano 💕 Cada vez que pulses 'continuar' te diré un motivo único del 1 al 1000... ¡y ahora también tienes mis 10 imágenes para descargar! 🌸";
+            chatBox.appendChild(welcome);
+        };
+    </script>
+</body>
+</html>
